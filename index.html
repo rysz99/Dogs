@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Słynne rasy psów</title>
+    <meta name="keywords" content ="rasa, psy, czworonogi, najsłynniejsze rasy, udomowienie" />
+    <meta name="description" content="Oto strona główna, wprowadzająca do dokładniejszego, obszerniejszego opisu każdej z ras na oddzielnych podstronach." />
+    <link rel="stylesheet" href="../styles/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    
+    <script>
+            
+        jQuery(function($)
+        {
+           //zresetuj scrolla
+               $.scrollTo(0);
+
+          //animowane przejścia do nagłowków h3
+               $('#g').click(function(){$.scrollTo ($('#german'), 11000);});
+               $('#b').click(function(){$.scrollTo ($('#beagle'), 11000);});
+               $('#sz').click(function(){$.scrollTo ($('#sznaucer'), 11000);});
+               $('#m').click(function(){$.scrollTo ($('#mops'), 11000);});
+               $('#w').click(function(){$.scrollTo ($('#west-highland'), 11000);});
+               $('#ber').click(function(){$.scrollTo ($('#bern'), 11000);});
+               $('#a').click(function(){$.scrollTo ($('#amstaff'), 11000);});
+               $('#y').click(function(){$.scrollTo ($('#yorkshire'), 11000);});
+               $('#bulf').click(function(){$.scrollTo ($('#french'), 11000);});
+               $('#bula').click(function(){$.scrollTo ($('#english'), 11000);});
+               $('#h').click(function(){$.scrollTo ($('#husky'), 11000);});
+               $('#border').click(function(){$.scrollTo ($('#collie'), 11000);});
+               $('#gold').click(function(){$.scrollTo ($('#golden'), 11000);});
+               $('#lab').click(function(){$.scrollTo ($('#labrador'), 11000);});
+            
+        });
+            
+        </script>
+</head>
+<body>
+    <div class="container">
+        <div class="main"></div>
+    
+        <header>
+            <h1>Najsłynniejsze rasy psów</h1> 
+            <p class="intro">
+Witajcie Drodzy Czytelnicy! Oto strona główna mojej witryny poświęconej najsłynniejszym rasom psów. Wiadomo, że psy oddzieliły się od wilków pomiędzy 40 a 14 tys. lat temu i przeszły 16-krotną redukcję rozmiarów. Nowe rasy psów powstawały w wyniku krzyżówek i warunków środowiskowych, a z czasem jako efekt manipulacji genetycznych i często były pochodną mody danej epoki. Poznajmy teraz wstępne opisy najsłynniejszych ras w Polsce!
+            </p>
+            
+            <div class="menu">
+                <nav>
+                    <h2>
+Popularne rasy
+                    </h2>
+                    
+                    <ol>
+                        <li id="g">
+<a href="#">Owczarek Niemiecki</a>                           
+                        </li>
+                        
+                        <li id="b">
+<a href="#">Beagle</a>                       
+                        </li>
+                        
+                        <li id="sz">
+<a href="#">Sznaucer Miniaturowy</a>                    
+                        </li>
+                        
+                        <li id="m">
+<a href="#">Mops</a>     
+                        </li>
+                        
+                        <li id="w">
+<a href="#">West Highland White Terrier</a>                 
+                        </li>
+                        
+                        <li id="ber">
+<a href="#">Berneński Pies Pasterski</a>                         
+                        </li>
+                        
+                        <li id="a">
+<a href="#">Amstaff</a>                            
+                        </li>
+                        
+                        <li id="y">
+<a href="#">Yorkshire Terrier</a>                           
+                        </li>
+                        
+                        <li id="bulf">
+<a href="#">Buldog Francuski</a>                           
+                        </li>
+                        
+                        <li id="bula">
+<a href="#">Buldog Angielski</a>                           
+                        </li>
+                        
+                        <li id="h">
+<a href="#">Husky</a>                           
+                        </li>
+                        
+                        <li id="border">
+                            <a href="#">Border Collie</a>
+                        </li>
+                        
+                        <li id="gold">
+<a href="#">Golden Retriever</a>   
+                        </li>
+                        
+                        <li id="lab">
+<a href="#">Labrador Retriever</a>                                                   
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
+            <div class="menu second">
+                <aside>
+                    <h2>
+Dodatkowe materiały
+                    </h2>
+                    
+                    <ul>
+                        <li>
+                           <a href="https://youtu.be/xjyK1cWp4kY?si=FbUUsuXK-s9hPc_X" target="_blank">
+Historia psa. <br />Ewolucja gatunku                        
+                    </a> 
+                        </li>
+                        
+                        <li>
+                          <a href="https://youtu.be/92BujHnhFy8?si=IjeBczh36UIzVud4" target="_blank">
+Pies a wilk                      
+                    </a>  
+                        </li>
+                        
+                        <li id="last">
+                          <a href="https://youtu.be/eDhMU8H44gA?si=ODjAzjUmrXYsL0pA" target="_blank">
+                              Historie niektórych ras
+                        </a> 
+                        </li>
+                    </ul>
+                    <img src="images.jpeg" alt="Kolorowy plakat psa." height="232" />
+                </aside>
+            </div>
+            <div style="clear: both;"></div>
+        </header>
+        
+        <main id="change-opacity">
+            <section>
+                <h3 id="german">
+                    <a href="#g">01. Owczarek Niemiecki</a>
+                </h3>
+                
+                <p class="description">
+Owczarki niemieckie to najbardziej popularna rasa użytkowa na świecie. <br />Szarik z <i>Czterej Pancerni i Pies</i> jest niewątpliwie symbolem tej popularności. Przodkowie owczarków niemieckich żyli prawdopodobnie na obszarach Niemiec już w VII wieku. Już wtedy psy te wykorzystywane były do różnych zadań. <br />Ich głównym zadaniem był wypas owiec. Zajmowały się także stróżowaniem majątków swoich właścicieli. Gdy pod koniec XIX wieku w Niemczech, industrializacja doprowadziła do upadku hodowli owiec, grupa miłośników psów postanowiła ocalić rasy pasterskie. Ze skrzyżowania owczarka wirtemberskiego <br />i owczarka turyńskiego otrzymano wówczas nową rasę, owczarka niemieckiego. Szybko stała się ona niezwykle popularna na całym świecie. Rasę oficjalnie uznano w 1898 roku, za sprawą pułkownika Von Stephanitza. Był on ich pierwszym hodowcą.
+
+Do Polski psy te trafiły przed II wojną światową. <br />Właściwa hodowla owczarków niemieckich w naszym kraju rozpoczęła się dopiero w latach 60. ubiegłego wieku.  
+                </p>
+                
+                <figure>
+                    <a href="german_sheepheard.html"><img src="owczarek_niemiecki.jpeg" alt="Owczarek niemiecki" /></a>
+                    <figcaption>
+                        Owczarek niemiecki 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="beagle">
+                    <a href="#b">02. Beagle</a>
+                </h3>
+                
+                <p class="description">
+Rasa psa, należąca do grupy psów gończych, posokowców i psów ras pokrewnych, typu wyżłowatego. Zaklasyfikowana do sekcji psów gończych, <br />w podsekcji psy gończe małe. Podlega próbom pracy.                    
+                </p>
+                
+                <figure>
+                    <a href="beagle.html"><img src="beagle.jpeg" alt="Beagle" /></a>
+                    <figcaption>
+Beagle 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="sznaucer">
+                    <a href="#sz">03. Sznaucer Miniaturowy</a>
+                </h3>
+                
+                <p class="description">
+Hodowlę sznaucerów można prześledzić aż do XV wieku. Jednak w tym czasie rasa ta występowała tylko w większych wariantach. Dopiero na koniec XIX wieku sznaucer miniaturowy został pokazany pierwszy raz publicznie. To, czy został skrzyżowany z najmniejszych przedstawicieli swoich dużych krewniaków – sznaucera średniego i sznaucera olbrzyma, czy też został skrzyżowany z małymi psami, tj. pinczer małpi, po dziś dzień pozostaje kwestią sporną. <br />Fakt, że sznaucer miniaturowy różni się nieco charakterem od swoich dużych braci, przemawia za drugą teorią. Na początku mały, kompaktowy sznaucer był wykorzystywany przede wszystkim do polowania na szczury. Od kilkudziesięciu lat jest trzymany głównie jako pies towarzyszący.                   
+                </p>
+                
+                <figure>
+                    <a href="sznaucer.html"><img src="sznaucer_miniaturowy.jpeg" alt="Sznaucer miniaturowy" /></a>
+                    <figcaption>
+Sznaucer Miniaturowy                    
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="mops">
+                    <a href="#m">04. Mops</a>
+                </h3>
+                
+                <p class="description">
+Mopsy to stara chińska rasa, która najprawdopodobniej przywędrowała do nas jedwabnym szlakiem. W swojej ojczyźnie do XIX wieku zarówno mopsy, jak i inne miniaturowe rasy, mogły być w rękach jedynie dworskich, wysoko urodzonych rodzin. Była to zatem rasa arystokratyczna, a za hodowanie jej poza pałacem groziła nawet kara śmierci. Rasa wyszła z cesarskiego dworu za sprawą Brytyjczyków, z którymi Chińczycy prowadzili w tamtym okresie walki oraz mieli kontakty handlowe. Mops stał się jednym z najpopularniejszych psów nie tylko wśród rodzin, ale również singli, a nawet osób starszych. Ten pies doskonale odnajduje się w środowisku miejskim i domowym dzięki cechom charakteru. Mimo że nie wymaga bardzo dużo ruchu, to chętnie potowarzyszy w mniejszych aktywnościach i wycieczkach. Przyjrzymy się dokładniej tej rasie.                    
+                </p>
+                
+                <figure>
+                    <a href="mops.html"><img src="mops.jpeg" alt="Mops" /></a>
+                    <figcaption>
+Mops 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="west-highland">
+                    <a href="#w">05. West Highland White Terrier</a>
+                </h3>
+                
+                <p class="description">
+                    
+                </p>
+                
+                <figure>
+                    <a href="west_highland_white_terrier.html"><img src="west_highland_white_terrier.jpeg" alt="West highland white terrier" /></a>
+                    <figcaption>
+West Highland White Terrier
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="bern">
+                    <a href="#ber">06. Berneński Pies Pasterski</a>
+                </h3>
+                
+                <p class="description">
+Jest to rasa pochodząca z terenów Szwajcarii i należy do grupy psów pracujących.
+Rys historyczny tych wyjątkowych psów jest niezwykle rozbudowany i sięga wielu lat przed Naszą Erą. Choć aż do początków XX wieku wierzono, <br />że berneńczyki pojawiły się w Alpach wraz z dotarciem Rzymian na te tereny, zmienił to fakt odnalezienia nad Jeziorem Zuryskim czaszki psa pochodzącej z okresu pomiędzy 1000 a 600 lat p.n.e. Udowodniło to fakt, że berneńskie psy pasterskie bytowały na tych terenach jeszcze przed Rzymianami.
+
+<br />Berneński pies pasterski od zawsze stanowił ogromną pomoc i wsparcie dla człowieka. Początkowo stróżował, doglądał i zaganiał stada owiec i bydła, pilnował obejścia i odstraszał nieproszonych gości. Szybko okazało się, że te psy są niezwykle inteligentne i chętne do nauki. Kiedy w Szwajcarii zaczęło powstawać coraz więcej serowni, berneńczyki dzielnie ciągnęły ciężkie wózki pełne sera na stanowiska targowe.                   
+                </p>
+                
+                <figure>
+                    <a href="bernian_sheepheard.html"><img src="bernenski_pies_pasterski.jpeg" alt="Berneński pies pasterski" /></a>
+                    <figcaption>
+                        Berneński Pies Pasterski 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="amstaff">
+                    <a href="#a">07. Amstaff</a>
+                </h3>
+                
+                <p class="description">
+American staffordshire terrier to silny i zwinny pies, który budzi respekt. <br />Pogląd głoszący, że jest niebezpieczny, nie jest prawdziwy. Takim jest każdy pies, który jest źle wychowany. Jednak wrodzona nadwrażliwość na stres oraz silny uścisk szczęk powoduje, że konsekwencje złego prowadzenia amstaffa są bardzo poważne. Dlatego jest to pies polecany dla osoby zrównoważonej, która okaże mu ciepło, ale zarazem stanowczość.                    
+                </p>
+                
+                <figure>
+                    <a href="amstaff.html"><img src="amstaff.jpeg" alt="Amstaff" /></a>
+                    <figcaption>
+Amstaff
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="yorkshire">
+                    <a href="#y">08. Yorkshire Terrier</a>
+                </h3>
+                
+                <p class="description">
+Yorkshire terrier to rasa dość młoda, której geneza leży w początkach XIX wieku, czyli w czasach rewolucji przemysłowej. Jej powstanie zawdzięczamy ubogim szkockim imigrantom, którzy w poszukiwaniu pracy w brytyjskich kopalniach <br />i fabrykach tekstyliów zabierali ze sobą także swoje rodzime psy: rozmaite teriery. Ich zadaniem było polowanie na myszy w domach i szczury w kopalniach i trwałe opanowanie plagi gryzoni zarówno w biednych dzielnicach robotniczych, jak i na posesjach ludzi zamożnych. Czasem te zwinne pieski wykorzystywane były także do polowań na króliki. Prości pracownicy fabryk byli zwykle analfabetami, <br />dlatego nie istnieją zapiski o początkach hodowli. Inna teoria głosi natomiast, <br />że hodowla tych piesków była dla ubogich robotników i rzemieślników zbyt dochodowym interesem, aby chcieli zdradzić tajemnicę sukcesu. Faktem jest, <br />że dokładny „skład” yorka nie jest znany.                    
+                </p>
+                
+                <figure>
+                    <a href="yorkshire_terrier.html"><img src="yorkshire_terrier.jpeg" alt="Yorkshire terrier" /></a>
+                    <figcaption>
+                        Yorkshire Terrier                       
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="french">
+                    <a href="#bulf">09. Buldog Francuski</a> 
+                </h3>
+                
+                <p class="description">
+Pod wieloma względami buldogi francuskie przypominają buldogi angielskie - obie rasy charakteryzuje muskularna budowa ciała, krótka kufa, pomarszczony pysk oraz krótka i gładka sierść. Buldog francuski jest jednak mniejszych rozmiarów i ma duże, nietoperze uszy, które uznaje się za cechę charakterystyczną tej rasy.                    
+                </p>
+                
+                <figure>
+                    <a href="french_bulldog.html"><img src="buldog_francuski.jpeg" alt="Buldog francuski" /></a>
+                    <figcaption>
+Buldog francuski
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="english">
+                    <a href="#bula">10. Buldog Angielski</a> 
+                </h3>
+                
+                <p class="description">
+                    
+                </p>
+                
+                <figure>
+                    <a href="english_bulldog.html"><img src="buldog_angielski.jpeg" alt="Buldog angielski" /></a>
+                    <figcaption>
+Buldog angielski 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="husky">
+                    <a href="#h">11. Husky</a>                    
+                </h3>                                                     
+                
+                <p class="description">
+Psy husky mają bardzo długą już historię, która sięga 3000 lat wstecz na terenach wschodniej Syberii. Był tam niezbędny przy ciągnięciu sań np. z upolowaną zwierzyną. Jednak ładunki, jakie przewoził, były zazwyczaj stosunkowo nieciężkie, ale dystanse za to ogromne.
+
+Rasa zdobywała na popularności dzięki udziałom w wyścigaach zaprzęgów, gdzie wygrywała wszystkie możliwe dystanse. Przełomowym momentem w historii rasy husky był w 1914 roku. <br />Wtedy też pewien Norweg otrzymał aż kilkanaście psów husky w celu wyprawy na biegun północny, a następnie 9 lat później psy uratowały życie dowożąc na czas szczepionkę na błonicę (dyfteryt). To wydarzenie sprawiło, że syberiany stały się znane na całym świecie. Od tej grupy psów wywodzą się wszystkie późniejsze linie hodowlane psów husky.                    
+                </p>
+                
+                <figure>
+                    <a href="husky.html"><img src="husky.jpeg" alt="Husky" /></a>
+                    <figcaption>                       Husky 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="collie">
+                    <a href="#border">12. Border Collie</a> 
+                </h3>
+                
+                <p class="description">
+Nazwa pochodzi od słów: „collie” (wszystko, co użyteczne), oraz „border” <br />(ang. granica) nawiązującego do granicy Anglii i Szkocji, na której prawdopodobnie ukształtowała się ta rasa. Do powstania rasy border collie prawdopodobnie przyczynili się już starożytni Rzymianie, którzy na Wyspy Brytyjskie sprowadzili duże, czarno-białe psy mające za zadanie strzec wypasanych zwierząt gospodarskich. Czworonogi te następnie skrzyżowały się z psami w typie szpica, które dotarły na Wyspy za sprawą Wikingów. W ten sposób powstały lżejsze, zwinniejsze mieszańce, lepiej przystosowane do pracy w trudnych warunkach. Pierwszy opis psów w typie border collie pochodzi z <br />X wieku. Pracujący border collie, służący nie tylko do wypasu bydła, ale także zapędzania owiec na targ, pojawił się następnie w książce „English Shepherd” Johannesa Caina z 1573 roku. W czasach tych istniało wiele lokalnych odmian psów wypasających, które różniły się w  zależności od warunków otoczenia, rodzaju wykonywanej pracy, a nawet rasy wypasanych owiec. W XIX wieku psy w typie border collie zaczęto sprowadzać do Australii, Nowej Zelandii i Ameryki. <br />By podtrzymać użytkowe cechy psów pracujących, w roku 1873 zaczęto organizować próby pracy polegające na sprawdzaniu umiejętności psów do przeprowadzania owiec i gęsi przez tory przeszkód. W 1906 roku utworzono International Sheepdog Society (ISDS, Międzynarodowe Stowarzyszenie Psów Pasterskich), którego zadaniem było organizowanie prób pracy i prowadzenie ksiąg rodowodowych.                    
+                </p>
+                
+                <figure>
+                    <a href="border_collie.html"><img src="../grafika/border_collie.jpeg" alt="Border collie" /></a>
+                    <figcaption>
+Border collie 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="golden">
+                    <a href="#gold">13. Golden Retriever</a> 
+                </h3>
+                
+                <p class="description">
+To rasa psa pochodząca z Wielkiej Brytanii. Jako właściciel Cocker spaniela angielskiego, mogę powiedzieć, że jest towarzyski i chętny do zabaw oraz pieszczot w porównywalnym stopniu. Poznajmy go dokładniej!                   
+                </p>
+                
+                <figure>
+                    <a href="golden_retriever.html"><img src="golden_retriever.jpeg" alt="Golden retriever" /></a>
+                    <figcaption>
+Golden Retriever 
+                    </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3 id="labrador">
+                    <a href="#lab">14. Labrador Retriever</a>
+                </h3>
+                
+                <p class="description">
+W Wielkiej Brytanii i Stanach Zjednoczonych Labrador Retriever należy do najpopularniejszych ras psów. Także w wielu innych krajach europejskich przoduje w statystykach narodzin szczeniąt rasowych. Nic dziwnego, <br />gdyż Labrador Retriever jak żadna inna rasa odznacza się wybitną lojalnością wobec człowieka oraz wrodzonym posłuszeństwem. Jego naturalna potrzeba przypodobania się właścicielowi czyni z niego kompana niezwykle łatwego do ułożenia, wykazującego gotowość do współpracy i zdolność do przystosowania się. Labradora bez problemu można zabrać ze sobą wszędzie i wszędzie raczej będzie mile widzianym gościem. Obcych wita przyjaźnie, machając radośnie ogonem. To ciekawska, otwarta rasa, która najlepiej czuje się w towarzystwie. Płochliwość, strach czy niepewność są społecznemu Labradorowi równie obce co agresja i wrogość.                    
+                </p>
+                
+                <figure>
+                    <a href="labrador_retriever.html"><img src="labrador_retriever.jpeg" alt="Labrador retriever" /></a>
+                    <figcaption>
+Labrador Retriever                        
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        
+        <footer>
+            <div>
+              <p></p>
+Najsłynniejsze rasy psów 2024 &copy; Wszelkie prawa zastrzeżone R.M.  
+            </div>      
+        </footer>
+        <div class="main"></div>
+    </div>
+</body>
+</html>

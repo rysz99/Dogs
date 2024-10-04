@@ -1,0 +1,288 @@
+body 
+{
+   font-size: 20px;
+   background-color: #ddd;
+   text-align: center;
+}
+
+img
+{
+    height: 260px;
+    opacity: 90%;
+}
+
+#change-opacity img:hover
+{
+   opacity: 100%; 
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 976px;
+}
+
+.main
+{
+    background-image: url(tlo.png);
+    background-repeat: repeat-x;    
+    width: 100%;
+    height: 175px;
+}
+
+.amstaff
+{
+    background-image: url(amstaff.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.beagle
+{
+    background-image: url(beagle.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.german
+{
+    background-image: url(owczarek_niemiecki.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.mops
+{
+    background-image: url(mops.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.yorkshire
+{
+    background-image: url(yorkshire_terrier.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.husky
+{
+    background-image: url(husky.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.golden
+{
+    background-image: url(golden_retriever.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.labrador
+{
+    background-image: url(labrador_retriever.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.bern
+{
+    background-image: url(bernenski_pies_pasterski.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.collie
+{
+    background-image: url(border_collie.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.sznaucer
+{
+    background-image: url(sznaucer_miniaturowy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.french
+{
+    background-image: url(buldog_francuski.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.english
+{
+    background-image: url(buldog_angielski.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.highland
+{
+    background-image: url(west_highland_white_terrier.jpeg);
+    background-repeat: no-repeat;
+    background-size: 976px 507px;
+    height: 507px;
+}
+
+.amstaff:hover,.highland:hover,.english:hover,.french:hover,.sznaucer:hover,.collie:hover,.bern:hover,
+.labrador:hover,.golden:hover,.husky:hover,.yorkshire:hover,.mops:hover,.german:hover,.beagle:hover
+{
+    opacity: 90%;
+}
+
+h1
+{
+    background-color: coral;
+    color: white;
+    padding: 15px;
+    letter-spacing: 2.5px; 
+    line-height: 200%;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+h2
+{
+    background-color: #478e54;
+    padding: 5px;
+    margin: 0;
+}
+
+h3
+{
+    margin-top: 180px;
+    text-transform: uppercase;
+}
+
+p
+{
+    text-align: justify;
+    padding: 15px 10px;
+    line-height: 200%;
+}
+
+.intro
+{
+    line-height: 170%;
+    background-color: black;
+    color: white;
+    border: 2.5px solid lightgreen;
+}
+
+.menu
+{
+    width: 437.5px;
+    padding: 10px;
+    border: 1.5px dashed darkred;
+    float: left;
+    margin: 0 20px 0 1px;
+    min-height: 600px;
+}
+
+.menu.second
+{
+    margin: 0 1px 0 20px;
+}
+
+.menu.second li
+{
+    padding: 15px;
+}
+
+#last
+{
+    margin-bottom: 105px;
+} 
+
+ul,ol
+{
+    text-align: left;
+}
+
+ol
+{
+    list-style-type: decimal-leading-zero;
+}
+
+li
+{
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: darkorange;
+    text-shadow:
+    1px 1px 0 black,    
+    -1px 1px 0 black,    
+    -1px -1px 0 black,    
+    1px -1px 0 black;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+ul li:hover::before
+{
+    content: "▶";
+    color: white;
+    text-shadow: none;
+    background-color: red;
+    border-radius: 3px;
+    padding: 0 8px;
+}
+
+header
+{
+    background-color: #bbb;
+    padding-bottom: 10px;
+}
+
+main
+{
+    background-color: #aaa;
+    padding: 15px 0;
+}
+
+footer
+{
+    background-color: #999;
+}
+
+footer > div
+{
+    padding: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+a
+{
+    text-decoration: none;
+    color: darkorange;
+    text-shadow:
+    1px 1px 0 black,    
+    -1px 1px 0 black,    
+    -1px -1px 0 black,    
+    1px -1px 0 black;
+}
