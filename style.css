@@ -276,6 +276,7 @@ footer > div
     letter-spacing: 1px;
     text-transform: capitalize;
     background-color: coral;
+    color: #fff;
 }
 
 a
